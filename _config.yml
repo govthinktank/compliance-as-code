@@ -4,7 +4,7 @@ description:
 # GitHub information
 # This is used for adding an edit this page link to the footer
 github_info:
-  organization: civicactions
+  organization: govthinktank
   repository: compliance-as-code
   default_branch: master
 

@@ -47,11 +47,11 @@ contact:
   # Comment out links you don't want to use (RSS is an example)
   social_links:
 #    - text: Facebook
-#      href: https://facebook.com/civicactions
+#      href: https://facebook.com/
 #      external: true
 #      type: facebook
 #    - text: Twitter
-#      href: https://twitter.com/civicactions
+#      href: https://twitter.com/
 #      external: true
 #      type: twitter
 #     - text: YouTube
@@ -67,5 +67,5 @@ contact:
   contact_links:
 #     - text: (800) CALL-GOVT
 #       href: tel:1-800-555-5555
-#    - text: compliance@civicactions.com
-#      href: mailto:compliance@civicactions.com
+#    - text: compliance@.com
+#      href: mailto:compliance@.com
