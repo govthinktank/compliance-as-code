@@ -3,79 +3,32 @@ layout: default
 main:
 class:
 ---
-
-<div class="jumbotron">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-2 people-img">
-                <img src="{{ site.baseurl }}/assets/img/people/{{ author.image }}" alt="{{ author.name }}" title="{{ page.name }}">
-            </div>
-            <div class="col-md-10">
-                <h1 class="display-4">{{ page.name }}</h1>
-                <p class="lead">{{ page.location }}</p>
-                <p class="people-social">
-                    {% if page.linkedin %}
-                    <a href="{{ page.linkedin }}"><i class="fab fa-linkedin"></i></a>
+<div class="usa-section">
+    <div class="grid-container">
+        <div class="usa-width-three-fourths usa-layout-docs-team-member">
+            <main class="usa-layout-docs usa-layout-docs__main usa-prose{% if sidenav %} desktop:grid-col-9{% endif %}" id="main-content">
+                <h1>{{ page.name }}</h1>
+                <div class="grid-row grid-gap">
+                    <div class="grid-col-2 people">
+                        <img src="{{ site.baseurl }}/assets/img/people/{{ page.image }}" alt="photo of {{ page.name }} ">
+                    </div>
+                    <div class="grid-col-10">
+                        {{ page.github }}
+                        {{ content }}
+                    </div>
+                </div>
+                <p>
+                    {{ page.job_title }}
+                    {% if page.gitub %}
+                    <br>
+                    phone: <a href="tel:{{ page.github }}">{{ page.github }}</a>
                     {% endif %}
-                    {% if page.github %}
-                    <a href="https://github.com/{{ page.github }}"><i class="fab fa-github"></i></a>
-                    {% endif %}
-                    {% if page.gitlab %}
-                    <a href="https://gitlab.com/{{ page.gitlab }}"><i class="fab fa-gitlab"></i></a>
-                    {% endif %}
-                    {% if page.twitter %}
-                    <a href="https://twitter.com/{{ page.twitter }}"><i class="fab fa-twitter"></i></a>
-                    {% endif %}
-                    {% if page.speakerdeck %}
-                    <a href="{{ page.speakerdeck }}"><i class="fab fa-speaker-deck"></i></a>
-                    {% endif %}
-                    {% if page.website %}
-                    <a href="{{ page.website }}"><i class="fas fa-laptop"></i></a>
+                    {% if page.email %}
+                    <br>
+                    email: <a href="mailto:{{ page.email }}">{{ page.email }}</a>
                     {% endif %}
                 </p>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col-md-8">
-            {% if page.quote %}
-            <h2>Quote</h2>
-            <p class="lead-quote">"{{ page.quote }}"</p>
-            {% endif %}
-            {% if content.size > 1 %}
-            {% include heading-anchor.html heading="About" %}
-            {{ content | markdownify }}
-            {% endif %}
-        </div>
-        <div class="col-md-4">
-            <div class="alert-info">
-                {% if page.personal_pronouns %}
-                <h2>Personal pronouns</h2>
-                <p>{{ page.personal_pronouns }}</p>
-                {% endif %}
-                {% if page.role %}
-                <h2>Role</h2>
-                <p>{{ page.role }}</p>
-                {% endif %}
-                <!--
-                <h2>Topics</h2>
-                {% if post %}
-                {% assign categories = post.categories %}
-                {% else %}
-                {% assign categories = page.categories %}
-                {% endif %}
-                <ul>
-                    {% for category in categories %}
-                    <li>
-                        <a href="{{site.baseurl}}/topics/{{category|slugify}}">{{ category | capitalize }}</a>
-                    </li>
-                    {% unless forloop.last %}{% endunless %}
-                    {% endfor %}
-                </ul>
-            -->
-            </div>
+            </main>
         </div>
     </div>
 </div>

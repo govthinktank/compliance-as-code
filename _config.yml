@@ -90,3 +90,10 @@ collections:
   tools:
     output: true
     permalink: tools/:title
+
+defaults:
+  - scope:
+      path: ""
+      type: "people"
+    values:
+      layout: "people"

@@ -15,7 +15,7 @@ The traditional compliance process is:
 * Reactive: A response to rules and regulations.
 * Manual: A security plan can be hundreds of pages.
 * Labor intensive: A security plan can be hundreds of pages.
-* Time-consuming: It takes a year (~543 hours) or more to get an ATO.
+* Time-consuming: It takes a year (around 543 hours) or more to get an ATO.
 * Expensive: Estimated costs range from $180-700K average annual.
 * Misleading: It doesn’t necessarily make systems more secure.
 

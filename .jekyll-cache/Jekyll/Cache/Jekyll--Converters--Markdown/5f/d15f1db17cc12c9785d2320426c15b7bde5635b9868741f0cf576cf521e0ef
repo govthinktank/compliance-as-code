@@ -1,0 +1,23 @@
+I"ÿ<p>The traditional compliance process is:</p>
+
+<ul>
+  <li>Reactive: A response to rules and regulations.</li>
+  <li>Manual: A security plan can be hundreds of pages.</li>
+  <li>Labor intensive: A security plan can be hundreds of pages.</li>
+  <li>Time-consuming: It takes a year (around 543 hours) or more to get an ATO.</li>
+  <li>Expensive: Estimated costs range from $180-700K average annual.</li>
+  <li>Misleading: It doesnâ€™t necessarily make systems more secure.</li>
+</ul>
+
+<p>From <a href="https://pages.nist.gov/OSCAL/learnmore/">NIST</a>:</p>
+
+<blockquote>
+  <p>There are a number of complicating factors contributing to the challenges faced by information system security professionals today.</p>
+
+  <ul>
+    <li>Multiple regulatory standards and frameworks, which change over time;</li>
+    <li>Regulatory standards and frameworks overlap in scope and can often conflict or be difficult to manage together; and</li>
+    <li>Information systems are increasing in size and complexity.</li>
+  </ul>
+</blockquote>
+:ET

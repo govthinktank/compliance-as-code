@@ -2,31 +2,31 @@ docs_list_title: guide
 docs:
 
 - title: Introduction
-  url: /introduction/
+  url: /introduction
   description: Get started.
   image: card-sliders.png
 
 - title: Challenges
-  url: /challenges/
+  url: /challenges
   description: The challenges with the traditional approach to compliance.
   image: card-cloud-lightning.png
 
 - title: Solution
-  url: /solution/
+  url: /solution
   description: How we solve the challenges of the traditional compliance process
   image: card-lightbulb.png
 
 - title: Stakeholders
-  url: /stakeholders/
+  url: /stakeholders
   description: Who should learn about compliance as code (and why).
   image: card-anchor.png
 
 - title: Organizations
-  url: /organizations/
+  url: /organizations
   description: Agencies and organizations government compliance.
   image: card-orgs.png
 
 - title: Glossary
-  url: /glossary/
+  url: /glossary
   description: Key government compliance related terms.
   image: card-book.png
