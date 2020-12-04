@@ -1,7 +1,7 @@
 ---
 title: Contribute
 description: Contribute to Government Code as Compliance.
-permalink: /contribute/
+permalink: /contribute
 
 layout: post
 

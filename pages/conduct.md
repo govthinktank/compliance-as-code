@@ -1,7 +1,7 @@
 ---
 title: Code of conduct
 description: Government Compliance as Code code of conduct.
-permalink: /conduct/
+permalink: /conduct
 
 layout: post
 

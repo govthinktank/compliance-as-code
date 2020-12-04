@@ -13,15 +13,15 @@
 #
 primary:
   - text: About
-    href: /about/
+    href: /about
   - text: Guide
-    href: /guide/
+    href: /guide
   - text: News
-    href: /news/
+    href: /news
   - text: Team
-    href: /team/
+    href: /team
   - text: Contribute
-    href: /contribute/
+    href: /contribute
 
 ##  - text: Navigation section
 ##    links:
@@ -60,21 +60,21 @@ docs:
 # with the 'big' footer style.
 footer:
   - text: About
-    href: /about/
+    href: /about
   - text: Guide
-    href: /guide/
+    href: /guide
   - text: News
-    href: /news/
+    href: /news
   - text: Team
-    href: /team/
+    href: /team
   - text: Contribute
-    href: /contribute/
+    href: /contribute
   - text: Conduct
-    href: /conduct/
+    href: /conduct
   - text: License
-    href: /license/
+    href: /license
   - text: Colophon
-    href: /colophon/
+    href: /colophon
 #    links:
 #      - text: Overview
 #        href: /docs/

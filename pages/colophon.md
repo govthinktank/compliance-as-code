@@ -1,7 +1,7 @@
 ---
 title: Colophon
 description: Giving thanks.
-permalink: /colophon/
+permalink: /colophon
 
 layout: page
 

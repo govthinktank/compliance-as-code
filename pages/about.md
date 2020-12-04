@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about
 ---
 
 Government Compliance as Code is an open project working to streamline the government authority to operate process.

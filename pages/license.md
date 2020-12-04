@@ -1,7 +1,7 @@
 ---
 title: License
 description: License for Code as Compliance.
-permalink: /license/
+permalink: /license
 
 layout: page
 
