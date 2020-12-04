@@ -10,14 +10,14 @@ hero:
     alt: 
     text: ATO, meet compliance as code.
   button:
-    href: /contribute/
-    text: Join us
+    href: /guide
+    text: Visit the guide
   link:
     text: Link to more about that priority
     href: /link/
   content: We're working to streamline the government authority to operate process.
 
-tagline: An fresh approach to security compliance.
+tagline: A fresh approach to security compliance.
 intro: |
   Government Compliance as Code is an open project working to streamline the government authority to operate process through compliance as code. [Learn more.](/about)
 
@@ -34,7 +34,7 @@ graphics:
     description: Everyone is welcome. [Learn how you can contribute](/contribute) to Government Compliance as Code.
 ---
 
-## Get started
+## Contribute
 
 {:.font-heading-xl.margin-y-0"}
 
@@ -46,4 +46,4 @@ However, there is a solution.
 
 {:.usa-intro }
 
-[Get started](/guide){: .usa-button.usa-button--big }
+[Join us](/contribute){: .usa-button.usa-button--big }

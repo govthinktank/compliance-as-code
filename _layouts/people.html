@@ -13,21 +13,16 @@ class:
                         <img src="{{ site.baseurl }}/assets/img/people/{{ page.image }}" alt="photo of {{ page.name }} ">
                     </div>
                     <div class="grid-col-10">
-                        {{ page.github }}
+                        <h2>Bio</h2>
                         {{ content }}
+                        <h2>Connect</h2>
+                        <ul>
+                            {% if page.github %}
+                            <li><a href="{{ page.github }}">GitHub</a></li>
+                            {% endif %}
+                        </ul>
                     </div>
                 </div>
-                <p>
-                    {{ page.job_title }}
-                    {% if page.gitub %}
-                    <br>
-                    phone: <a href="tel:{{ page.github }}">{{ page.github }}</a>
-                    {% endif %}
-                    {% if page.email %}
-                    <br>
-                    email: <a href="mailto:{{ page.email }}">{{ page.email }}</a>
-                    {% endif %}
-                </p>
             </main>
         </div>
     </div>
