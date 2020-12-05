@@ -19,14 +19,14 @@ hero:
 
 tagline: A fresh approach to security compliance.
 intro: |
-  Government Compliance as Code is an open project working to streamline the government authority to operate process through compliance as code. [Learn more.](/about)
+  Government Compliance as Code is an open project working to streamline the government authority to operate process through compliance as code. [Learn more.]({site.baseurl}/about)
 
 graphics:
   - image:
       src: /assets/img/circles/circle-book.png
       alt: "Learn"
     title: Learn.
-    description: The [Guide to Government Compliance as Code](/guide) will help you understand the challenges, solutions and what role you play in streamlining the ATO process.
+    description: The [Guide to Government Compliance as Code]({site.baseurl}/guide) will help you understand the challenges, solutions and what role you play in streamlining the ATO process.
   - image:
       src: /assets/img/circles/circle-power.png
       alt: "Contribute"
