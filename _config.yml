@@ -1,12 +1,13 @@
 title: Government Compliance as Code
 description: 
+# baseurl: /compliance-as-code # the subpath of your site, e.g. /blog
+# url: https://govthinktank.github.io/compliance-as-code/ # the base hostname & protocol for your site, e.g. http://example.com
 
 # GitHub information
 # This is used for adding an edit this page link to the footer
 github_info:
   organization: govthinktank
   repository: compliance-as-code
-  default_branch: master
 
 # Configuration for setting the site width to 100%
 # To enable, uncomment the following line
