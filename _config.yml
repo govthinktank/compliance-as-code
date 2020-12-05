@@ -1,7 +1,5 @@
 title: Government Compliance as Code
 description: 
-baseurl: '' # the subpath of your site, e.g. /blog
-url: https://govthinktank.github.io/compliance-as-code/ # the base hostname & protocol for your site, e.g. http://example.com
 
 # GitHub information
 # This is used for adding an edit this page link to the footer
