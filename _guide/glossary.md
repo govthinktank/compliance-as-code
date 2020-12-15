@@ -10,3 +10,4 @@ categories:
 
 ---
 
+[Visit full glossary of terms.](../glossary)

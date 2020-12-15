@@ -64,6 +64,9 @@ collections:
   people:
     output: true
     permalink: people/:title
+  glossary:
+    output: true
+    permalink: glossary/:title
   guide:
     output: true
     permalink: guide/:title
